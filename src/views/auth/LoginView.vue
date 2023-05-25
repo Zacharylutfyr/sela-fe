@@ -1,14 +1,14 @@
 <template>
-  <LoginComponent/>
+  <LoginComponent />
 </template>
 
 <script>
-import LoginComponent from '@/components/LoginComponent.vue'
+import Login from "@/components/auth/Login.vue";
 export default {
-name : 'LoginViews',
+  name: "LoginViews",
   components: {
     // eslint-disable-next-line vue/no-unused-components
-    LoginComponent,
+    Login,
   },
-}
+};
 </script>

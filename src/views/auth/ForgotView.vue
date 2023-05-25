@@ -3,10 +3,10 @@
 </template>
 
 <script>
-import ForgotPassword from "ForgotPassword.vue";
+import ForgotPassword from "@/components/auth/ForgotPassword.vue";
 
 export default {
-  name: "ForgotPassword",
+  name: "ForgotView",
   components: {
     // eslint-disable-next-line vue/no-unused-components
     ForgotPassword,

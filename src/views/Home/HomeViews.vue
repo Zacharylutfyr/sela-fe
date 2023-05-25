@@ -1,9 +1,14 @@
 <template>
-  <DashboardComponent/>
+  <DashboardComponent />
 </template>
 
 <script>
-export default {
+import Home from "@/components/pages/Home.vue";
 
-}
+export default {
+  name: "HomeView",
+  components: {
+    Home,
+  },
+};
 </script>

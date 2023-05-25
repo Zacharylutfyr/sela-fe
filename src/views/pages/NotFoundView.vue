@@ -3,9 +3,9 @@
 </template>
 
 <script>
-import NotFound from "@/components/pages/NotFound.vue"
+import NotFound from "@/components/pages/NotFound.vue";
 export default {
-  name: "NotFound",
+  name: "NotFoundView",
   components: {
     NotFound,
   },

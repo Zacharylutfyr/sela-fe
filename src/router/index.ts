@@ -1,20 +1,20 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
-import LoginComponent from "@/components/auth/LoginComponent.vue";
-import RegisterComponent from "@/components/auth/RegisterComponent.vue";
+import Login from "@/components/auth/Login.vue";
+import Register from "@/components/auth/Register.vue";
 import ForgotPassword from "@/components/auth/ForgotPassword.vue";
 import NotFound from "@/components/pages/NotFound.vue";
-import HomeComponent from "@/components/pages/HomeComponent.vue";
+import Home from "@/components/pages/Home.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: "/", 
+    path: "/",
     name: "Login",
-    component: LoginComponent,
+    component: Login,
   },
   {
     path: "/register",
     name: "Register",
-    component: RegisterComponent,
+    component: Register,
   },
   {
     path: "/forgot-password",
@@ -24,7 +24,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: "/home",
     name: "Home",
-    component: HomeComponent,
+    component: Home,
   },
   {
     path: "/:catchAll(.*)",
