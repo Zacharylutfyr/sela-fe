@@ -21,5 +21,6 @@ import './assets/js/sb-admin-2.min.js';
 import './assets/vendor/chart.js/Chart.min.js';
 import './assets/js/demo/chart-area-demo.js';
 import './assets/js/demo/chart-pie-demo.js';
+import "./assets/styles/style.css";
 
-createApp(App).use(store).use(router).mount('#app')
+createApp(App).use(store).use(router).mount("#app");
