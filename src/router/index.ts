@@ -4,6 +4,7 @@ import Register from "@/components/auth/Register.vue";
 import ForgotPassword from "@/components/auth/ForgotPassword.vue";
 import NotFound from "@/components/pages/NotFound.vue";
 import Home from "@/components/pages/Home.vue";
+import Stok from '../views/StokView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -30,6 +31,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/:catchAll(.*)",
     name: "NotFound",
     component: NotFound,
+  },
+  {
+    path: '/',
+    name: 'stok',
+    component: Stok
   },
 ];
 

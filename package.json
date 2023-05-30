@@ -7,12 +7,15 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "bootstrap": "^5.3.0-alpha3",
+    "@popperjs/core": "^2.11.7",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.7.0",
     "vue": "^3.2.13",
     "vue-router": "^4.2.1",
     "vuex": "^4.0.0"
   },
   "devDependencies": {
+    "@types/jquery": "^3.5.16",
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-plugin-typescript": "~5.0.0",
     "@vue/cli-plugin-vuex": "~5.0.0",
