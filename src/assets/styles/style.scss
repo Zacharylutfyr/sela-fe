@@ -44,9 +44,8 @@ h1 {
   margin-top: 100px;
 }
 
-// todo 1,2 & 3. Login & Register
+// todo 1,2. Login & Register
 .login,
-.register,
 .forgot-password {
   background-color: #42ba96;
   .container {
@@ -146,54 +145,108 @@ h1 {
     }
   }
 }
-
-// todo 4. Stock Management
-
-.heading-bar {
+// todo 3. Register
+.register {
+  background-color: #42ba96;
   .container {
-    .search-bar {
-      .header-search-container {
-        margin-top: 20px;
-        .search-field {
-          width: 80%;
-          padding: 10px 15px;
-          border: 1px solid #ddd;
-          border-radius: 25px;
-          -webkit-border-radius: 25px;
-          -moz-border-radius: 25px;
-          -ms-border-radius: 25px;
-          -o-border-radius: 25px;
+    .login-box,
+    .register-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      .left-container {
+        img {
+          width: 457px;
+          height: 575px;
+          border-radius: 10px 0px 0px 10px;
+          object-position: center;
+          object-fit: cover;
         }
-        .search-icon {
+      }
+      .right-container {
+        width: 457px;
+        height: 575px;
+        background-color: #ffffff;
+        display: grid;
+        align-content: center;
+        padding: 50px;
+        border-radius: 0 10px 10px 0;
+        -webkit-border-radius: 0 10px 10px 0;
+        -moz-border-radius: 0 10px 10px 0;
+        -ms-border-radius: 0 10px 10px 0;
+        -o-border-radius: 0 10px 10px 0;
+        .logo {
+          width: 150px;
+          height: 100px;
+          display: flex;
+          margin: auto;
+          padding: 15px;
+        }
+        .input {
+          width: 337px;
+          height: 46px;
+          background: #ffffff;
+          border: 1px solid #dadada;
+          border-radius: 40px;
+          margin-bottom: 15px;
+          -webkit-border-radius: 40px;
+          -moz-border-radius: 40px;
+          -ms-border-radius: 40px;
+          -o-border-radius: 40px;
+        }
+        .input-name {
+          height: 46px;
+          background: #ffffff;
+          border: 1px solid #dadada;
+          border-radius: 40px;
+          margin-bottom: 10px;
+          -webkit-border-radius: 40px;
+          -moz-border-radius: 40px;
+          -ms-border-radius: 40px;
+          -o-border-radius: 40px;
+        }
+        .btn-danger {
+          background: #d40508;
+        }
+        .btn-blue {
+          background-color: #2596be;
+        }
+        .checkbox {
           cursor: pointer;
         }
-      }
-    }
-  }
-}
-
-.upload-image {
-  .container {
-    .upload-image-container {
-      .left-side {
-        .no-image {
-          border: 1px solid #c4c3c2;
-          border-radius: 5px;
-          -webkit-border-radius: 5px;
-          -moz-border-radius: 5px;
-          -ms-border-radius: 5px;
-          -o-border-radius: 5px;
-          img {
-            width: 250px;
-            height: 250px;
-          }
+        .right-top-paragraf {
+          font-size: 14px;
+        }
+        h6 {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 22px;
+          color: #ffffff;
+          margin-bottom: 23px;
+        }
+        button {
+          width: 337px;
+          height: 46px;
+          background: #3ac601;
+          border: 1px solid #dadada;
+          border-radius: 40px;
+          margin-bottom: 15px;
+          color: #ffffff;
+          -webkit-border-radius: 40px;
+          -moz-border-radius: 40px;
+          -ms-border-radius: 40px;
+          -o-border-radius: 40px;
+        }
+        a {
+          text-decoration: none;
         }
       }
     }
   }
 }
 
-// todo 5. Not Found Page
+// todo 4. Not Found Page
 .not-found {
   background-color: #4f4f4f;
   .container {
@@ -214,7 +267,7 @@ h1 {
         -o-border-radius: 10px;
         box-shadow: 5px 5px 5px white;
       }
-      .sorry{
+      .sorry {
         padding-top: 20px;
       }
     }
@@ -227,62 +280,109 @@ h1 {
 
 @media screen and (max-width: 992px) {
   .login,
-  .register,
   .forgot-password {
     .container {
       .login-box,
-      .register-box {
-        .left-container {
-          img {
-            width: 437px;
-            height: 475px;
-            border-radius: 10px 0 0 10px;
-            -webkit-border-radius: 10px 0 0 10px;
-            -moz-border-radius: 10px 0 0 10px;
-            -ms-border-radius: 10px 0 0 10px;
-            -o-border-radius: 10px 0 0 10px;
-          }
-        }
-        .right-container {
+      .left-container {
+        img {
           width: 437px;
           height: 475px;
-          border-radius: 0 10px 10px 0;
-          -webkit-border-radius: 0 10px 10px 0;
-          -moz-border-radius: 0 10px 10px 0;
-          -ms-border-radius: 0 10px 10px 0;
-          -o-border-radius: 0 10px 10px 0;
+          border-radius: 10px 0 0 10px;
+          -webkit-border-radius: 10px 0 0 10px;
+          -moz-border-radius: 10px 0 0 10px;
+          -ms-border-radius: 10px 0 0 10px;
+          -o-border-radius: 10px 0 0 10px;
         }
       }
+      .right-container {
+        width: 437px;
+        height: 475px;
+        border-radius: 0 10px 10px 0;
+        -webkit-border-radius: 0 10px 10px 0;
+        -moz-border-radius: 0 10px 10px 0;
+        -ms-border-radius: 0 10px 10px 0;
+        -o-border-radius: 0 10px 10px 0;
+      }
+    }
+  }
+}
+
+.register,
+.container {
+  .login-box,
+  .register-box {
+    .left-container {
+      img {
+        width: 437px;
+        height: 485px;
+        border-radius: 10px 0 0 10px;
+        -webkit-border-radius: 10px 0 0 10px;
+        -moz-border-radius: 10px 0 0 10px;
+        -ms-border-radius: 10px 0 0 10px;
+        -o-border-radius: 10px 0 0 10px;
+      }
+    }
+    .right-container {
+      width: 437px;
+      height: 485px;
+      border-radius: 0 10px 10px 0;
+      -webkit-border-radius: 0 10px 10px 0;
+      -moz-border-radius: 0 10px 10px 0;
+      -ms-border-radius: 0 10px 10px 0;
+      -o-border-radius: 0 10px 10px 0;
     }
   }
 }
 
 @media screen and (max-width: 768px) {
-  // 1 & 2. Responsive Login & Register
   .login,
-  .register,
   .forgot-password {
     .container {
       .login-box,
-      .register-box {
-        .left-container {
-          img {
-            display: none;
-          }
+      .left-container {
+        img {
+          width: 437px;
+          height: 475px;
+          border-radius: 10px 0 0 10px;
+          -webkit-border-radius: 10px 0 0 10px;
+          -moz-border-radius: 10px 0 0 10px;
+          -ms-border-radius: 10px 0 0 10px;
+          -o-border-radius: 10px 0 0 10px;
         }
-        .right-container {
-          border-radius: 10px 10px 10px 10px;
-          -webkit-border-radius: 10px 10px 10px 10px;
-          -moz-border-radius: 10px 10px 10px 10px;
-          -ms-border-radius: 10px 10px 10px 10px;
-          -o-border-radius: 10px 10px 10px 10px;
+      }
+      .right-container {
+        width: 437px;
+        height: 475px;
+        border-radius: 0 10px 10px 0;
+        -webkit-border-radius: 0 10px 10px 0;
+        -moz-border-radius: 0 10px 10px 0;
+        -ms-border-radius: 0 10px 10px 0;
+        -o-border-radius: 0 10px 10px 0;
+      }
+    }
+  }
+
+  .register,
+  .container {
+    .login-box,
+    .register-box {
+      .left-container {
+        img {
+          display: none;
         }
+      }
+      .right-container {
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
       }
     }
   }
 }
 
-@media screen and (max-width: 542px) {
+@media screen and (max-width: 575px) {
   .login,
   .register,
   .forgot-password {
