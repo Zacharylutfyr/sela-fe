@@ -32,6 +32,22 @@
             </div>
             <div class="form-group">
               <input
+                type="text"
+                class="form-control form-control-user input-name"
+                id="exampleLastName"
+                placeholder="NIK"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control form-control-user input-name"
+                id="exampleLastName"
+                placeholder="Divisi"
+              />
+            </div>
+            <div class="form-group">
+              <input
                 type="email"
                 class="input form-control form-control-user"
                 id="exampleInputEmail"
@@ -71,8 +87,8 @@
   </div>
 </template>
 
-<script lang='ts'>
+<script lang="ts">
 export default {
-  name: 'Register',
+  name: "Register",
 };
 </script>

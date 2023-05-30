@@ -18,7 +18,7 @@
                 class="input form-control form-control-user"
                 id="exampleInputEmail"
                 aria-describedby="emailHelp"
-                placeholder="Enter Email SSO..."
+                placeholder="Enter Email..."
               />
             </div>
             <div class="form-group">
