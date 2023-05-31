@@ -412,9 +412,14 @@
                                         <tr>
                                             <td>1</td>
                                             <td>ASUS</td>
-                                            <td>RAM 16GB, RYZEN 7 6300U, Dual Core</td>
+                                            <td>Republic of Gamers, Ryzen 7 6300U, RAM 32GB, Storage 2TB, CPU 48-core,
+                                                GPU 24-core</td>
                                             <td>50</td>
                                             <td class="d-flex justify-content-center">
+                                                <a href="#" class="btn btn-success btn-circle mr-1" data-toggle="modal"
+                                                    data-target="#TrackDataModal">
+                                                    <i class="fas fa-street-view"></i>
+                                                </a>
                                                 <a href="#" class="btn btn-warning btn-circle mr-1" data-toggle="modal"
                                                     data-target="#EditDataModal">
                                                     <i class="fas fa-pen"></i>
@@ -428,9 +433,13 @@
                                         <tr>
                                             <td>2</td>
                                             <td>LENOVO</td>
-                                            <td>RAM 8GB, RYZEN 5 4300U, Dual Core</td>
-                                            <td>20</td>
+                                            <td>Ideapad Slim 3, RYZEN 5 4300U, RAM 8GB, Storage 1TB, CPU 12-core</td>
+                                            <td>10</td>
                                             <td class="d-flex justify-content-center">
+                                                <a href="#" class="btn btn-success btn-circle mr-1" data-toggle="modal"
+                                                    data-target="#TrackDataModal">
+                                                    <i class="fas fa-street-view"></i>
+                                                </a>
                                                 <a href="#" class="btn btn-warning btn-circle mr-1" data-toggle="modal"
                                                     data-target="#EditDataModal">
                                                     <i class="fas fa-pen"></i>
@@ -438,6 +447,50 @@
                                                 <a href="#" class="btn btn-danger btn-circle" data-toggle="modal"
                                                     data-target="#HapusDataModal">
                                                     <i class="fas fa-trash"></i>
+                                                </a>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Apple</td>
+                                            <td>Macbook Pro, Chip Apple M2 Pro, RAM 16GB, Storage 2TB, CPU 12-core, GPU
+                                                38-core</td>
+                                            <td>12</td>
+                                            <td class="d-flex justify-content-center">
+                                                <a href="#" class="btn btn-success btn-circle mr-1" data-toggle="modal"
+                                                    data-target="#TrackDataModal">
+                                                    <i class="fas fa-street-view"></i>
+                                                </a>
+                                                <a href="#" class="btn btn-warning btn-circle mr-1" data-toggle="modal"
+                                                    data-target="#EditDataModal">
+                                                    <i class="fas fa-pen"></i>
+                                                </a>
+                                                <a href="#" class="btn btn-danger btn-circle" data-toggle="modal"
+                                                    data-target="#HapusDataModal">
+                                                    <i class="fas fa-trash"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>HP</td>
+                                            <td>Flipbook 4, Intel i7 Gen. 12, RAM 8GB, Storage 1TB, CPU 12-core,
+                                                GPU-12core</td>
+                                            <td>35</td>
+                                            <td class="d-flex justify-content-center">
+                                                <a href="#" class="btn btn-success btn-circle mr-1" data-toggle="modal"
+                                                    data-target="#TrackDataModal">
+                                                    <i class="fas fa-street-view"></i>
+                                                </a>
+                                                <a href="#" class="btn btn-warning btn-circle mr-1" data-toggle="modal"
+                                                    data-target="#EditDataModal">
+                                                    <i class="fas fa-pen"></i>
+                                                </a>
+                                                <a href="#" class="btn btn-danger btn-circle" data-toggle="modal"
+                                                    data-target="#HapusDataModal">
+                                                    <i class="fas fa-trash"></i>
+                                                </a>
                                                 </a>
                                             </td>
                                         </tr>
@@ -563,16 +616,79 @@
                         <option value="DELL">
                         <option value="Apple">
                     </datalist>
-                    <label for="exampleDataList" class="form-label">Spek</label>
-                    <textarea class="form-control mb-3" id="exampleFormControlTextarea1" rows="3"
-                        placeholder="Spek Laptop"></textarea>
+                    <label for="exampleDataList" class="form-label">Spek:</label>
+                    <div class="ml-2">
+                        <label for="exampleDataList" class="form-label">Processor:</label>
+                        <input class="form-control mb-3" type="text" placeholder="Processor Laptop"
+                            aria-label="default input example">
+                        <label for="exampleDataList" class="form-label">RAM:</label>
+                        <input class="form-control mb-3" type="text" placeholder="RAM Laptop"
+                            aria-label="default input example">
+                        <label for="exampleDataList" class="form-label">Storage:</label>
+                        <input class="form-control mb-3" type="text" placeholder="Storage Laptop"
+                            aria-label="default input example">
+                        <label for="exampleDataList" class="form-label">Graphics Card:</label>
+                        <input class="form-control mb-3" type="text" placeholder="Graphics Card Laptop"
+                            aria-label="default input example">
+
+                    </div>
                     <label for="exampleDataList" class="form-label">Stok</label>
-                    <input class="form-control" type="text" placeholder="Stok laptop"
+                    <input class="form-control" type="text" placeholder="Stok Laptop"
                         aria-label="default input example">
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
                     <a class="btn btn-primary" href="login.html">Tambah Data</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Track Data Modal-->
+    <div class="modal fade" id="TrackDataModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Track Data Laptop</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <label for="exampleDataList" class="form-label">Merk</label>
+                    <input class="form-control mb-3" list="datalistOptions" id="exampleDataList"
+                        placeholder="Merk Laptop">
+                    <datalist id="datalistOptions">
+                        <option value="ASUS">
+                        <option value="LENOVO">
+                        <option value="HP">
+                        <option value="DELL">
+                        <option value="Apple">
+                    </datalist>
+                    <label for="exampleDataList" class="form-label">Spek:</label>
+                    <div class="ml-2">
+                        <label for="exampleDataList" class="form-label">Processor:</label>
+                        <input class="form-control mb-3" type="text" placeholder="Processor Laptop"
+                            aria-label="default input example">
+                        <label for="exampleDataList" class="form-label">RAM:</label>
+                        <input class="form-control mb-3" type="text" placeholder="RAM Laptop"
+                            aria-label="default input example">
+                        <label for="exampleDataList" class="form-label">Storage:</label>
+                        <input class="form-control mb-3" type="text" placeholder="Storage Laptop"
+                            aria-label="default input example">
+                        <label for="exampleDataList" class="form-label">Graphics Card:</label>
+                        <input class="form-control mb-3" type="text" placeholder="Graphics Card Laptop"
+                            aria-label="default input example">
+
+                    </div>
+                    <label for="exampleDataList" class="form-label">Stok</label>
+                    <input class="form-control" type="text" placeholder="Stok Laptop"
+                        aria-label="default input example">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Edit Data</a>
                 </div>
             </div>
         </div>
@@ -600,11 +716,24 @@
                         <option value="DELL">
                         <option value="Apple">
                     </datalist>
-                    <label for="exampleDataList" class="form-label">Spek</label>
-                    <textarea class="form-control mb-3" id="exampleFormControlTextarea1" rows="3"
-                        placeholder="Spek Laptop"></textarea>
+                    <label for="exampleDataList" class="form-label">Spek:</label>
+                    <div class="ml-2">
+                        <label for="exampleDataList" class="form-label">Processor:</label>
+                        <input class="form-control mb-3" type="text" placeholder="Processor Laptop"
+                            aria-label="default input example">
+                        <label for="exampleDataList" class="form-label">RAM:</label>
+                        <input class="form-control mb-3" type="text" placeholder="RAM Laptop"
+                            aria-label="default input example">
+                        <label for="exampleDataList" class="form-label">Storage:</label>
+                        <input class="form-control mb-3" type="text" placeholder="Storage Laptop"
+                            aria-label="default input example">
+                        <label for="exampleDataList" class="form-label">Graphics Card:</label>
+                        <input class="form-control mb-3" type="text" placeholder="Graphics Card Laptop"
+                            aria-label="default input example">
+
+                    </div>
                     <label for="exampleDataList" class="form-label">Stok</label>
-                    <input class="form-control" type="text" placeholder="Stok laptop"
+                    <input class="form-control" type="text" placeholder="Stok Laptop"
                         aria-label="default input example">
                 </div>
                 <div class="modal-footer">
