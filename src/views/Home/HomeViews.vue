@@ -1,5 +1,5 @@
 <template>
-  <DashboardComponent />
+  <Home />
 </template>
 
 <script>
